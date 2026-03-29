@@ -1,92 +1,132 @@
-# Executive Sales Performance Dashboard | Sales & Business Analytics
+# Business Sales Performance Analytics
 
-# Executive Summary
+## Executive Summary
+
+This project delivers an executive-level business sales performance analysis using real-world e-commerce transactional data. The objective is to identify revenue drivers, understand customer purchasing behavior, and uncover growth opportunities to support data-driven business decision-making.
+
+The analysis transforms raw transactional data into actionable business KPIs and an executive-ready dashboard designed for stakeholders and business leaders.
+
+---
+
+## Executive Dashboard
+
+![Executive Sales Performance Dashboard](Executive_Sales_Performance_Dashboard.png)
+
+The executive dashboard provides visibility into:
+
+- Total Revenue Performance  
+- Total Orders & Customer Growth  
+- Monthly Revenue Trends  
+- Product Category Performance  
+- Customer Purchasing Behavior  
+- Business KPIs  
+
+---
 
 ## Business Problem
-Organizations require a centralized view of sales performance to understand revenue growth, customer purchasing behavior, and product category contribution. Without structured analytics, leadership lacks visibility into key revenue drivers and growth trends.
 
-## Solution
-Developed an executive-level Tableau dashboard using SQL-transformed transactional data to analyze revenue trends, customer purchasing behavior, and category-level performance.
+Organizations often lack centralized visibility into sales performance and customer behavior. Without clear insights, businesses struggle to:
+
+- Identify revenue drivers  
+- Understand product performance  
+- Analyze customer purchasing behavior  
+- Detect growth opportunities  
+- Monitor business performance over time  
+
+This project addresses these challenges by building a comprehensive business performance analytics solution.
+
+---
+
+## Key Business Metrics
+
+- Total Revenue: $13.6M  
+- Total Orders: 99K+  
+- Unique Customers: 96K+  
+- Average Order Value (AOV)  
+- Revenue by Product Category  
+- Monthly Revenue Trends  
+- Customer Purchase Frequency  
+
+---
+
+## Business Questions Answered
+
+- What drives revenue growth?  
+- Which product categories generate the most revenue?  
+- How is revenue trending over time?  
+- What customer purchasing patterns exist?  
+- Where are potential growth opportunities?  
+
+---
+
+## Key Insights
+
+### Revenue Performance
+- Revenue concentrated among top-performing product categories  
+- Monthly revenue growth trends identified  
+- Revenue growth opportunities discovered  
+
+### Product Performance
+- Top categories drive majority of revenue  
+- Long-tail product distribution observed  
+- High-performing product segments identified  
+
+### Customer Behavior
+- High proportion of single-purchase customers  
+- Repeat purchase opportunities identified  
+- Customer growth trends analyzed  
+
+### Growth Opportunities
+- Customer retention improvement opportunities  
+- Product expansion opportunities  
+- Revenue optimization strategies identified  
+
+---
+
+## Tools & Technologies
+
+- Tableau  
+- Excel  
+- Data Visualization  
+- Business Analytics  
+- KPI Development  
+- Dashboard Design  
+
+---
+
+## Project Structure
+
+business-sales-performance-analytics  
+│  
+├── data  
+├── tableau  
+├── exports  
+├── excel  
+├── docs  
+├── ecommerce.db  
+└── README.md  
+
+---
 
 ## Business Impact
-- Identified $13.6M total revenue across operations
-- Revealed top product categories driving majority of revenue
-- Identified consistent growth trend from 2016–2018
-- Determined $138 Average Order Value indicating strong purchasing behavior
 
-## Next Steps
-- Customer segmentation analysis  
-- Profitability analysis by category  
-- Forecasting future revenue growth  
-- Customer lifetime value analysis  
+This project demonstrates how analytics can:
+
+- Improve revenue visibility  
+- Identify growth opportunities  
+- Optimize product strategy  
+- Improve customer retention  
+- Support data-driven decision-making  
 
 ---
 
-# Final Dashboard Output
+## Dataset
 
-![Executive Sales Dashboard](Executive_Sales_Performance_Dashboard.png)
+Real-world e-commerce transactional dataset including:
 
----
-
-# Business Objective
-
-Provide leadership with a high-level view of:
-
-- Revenue growth trends  
-- Customer purchasing behavior  
-- Product category performance  
-- Business growth opportunities  
-
----
-
-# Dataset
-
-Real-world transactional sales dataset (Olist marketplace)
-
-- ~100K Orders  
-- ~100K Customers  
-- Multi-year data (2016–2018)  
-- Multiple product categories  
-
----
-
-# Methodology
-
-## SQL Analysis
-- Revenue aggregation
-- KPI calculations
-- Time-series analysis
-- Category performance analysis
-- Window functions
-
-## Excel Validation
-- Data validation
-- Data review
-
-## Tableau Dashboard
-- Executive KPI visualization
-- Revenue trend visualization
-- Category performance analysis
-
----
-
-# Key Metrics
-
-Total Revenue: $13.6M  
-Total Orders: 98.7K  
-Average Order Value: $138  
-
----
-
-# Tech Stack
-
-SQL (SQLite)  
-Excel  
-Tableau  
-
----
-
-# Outcome
-
-Developed an executive-level sales performance dashboard combining business insights and technical analytics to support data-driven decision-making.
+- Orders  
+- Customers  
+- Products  
+- Payments  
+- Order Items  
 
