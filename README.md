@@ -1,157 +1,200 @@
 # Business Sales Performance Analytics
 
-## Executive Summary
+$13.6M in total revenue across ~98K orders, with a subset of product categories driving the majority of sales and consistent revenue growth across the observed period.
 
-This project delivers an executive-level analysis of e-commerce sales performance to identify revenue drivers, customer purchasing behavior, and business growth opportunities. The objective is to transform transactional data into actionable insights and an executive dashboard that supports strategic decision-making.
-
-This project simulates a real-world business analytics scenario where stakeholders require visibility into revenue performance, customer trends, and product demand.
+This project analyzes multi-year transactional sales data to understand revenue drivers, evaluate growth trends, and support category-level business decisions.
 
 ---
 
-## Executive Dashboard
+# Headline Metrics
 
-![Executive Sales Performance Dashboard](Executive_Sales_Performance_Dashboard.png)
-
-### Dashboard Highlights
-
-- Revenue Performance Overview  
-- Monthly Sales Trends  
-- Customer Growth Analysis  
-- Product Category Performance  
-- Order Volume Trends  
-- Executive Business KPIs  
+Total Revenue: $13.6M  
+Total Orders: 98.7K  
+Average Order Value: $138  
+Multi-Year Revenue Growth Observed  
+Top Categories Drive Majority of Revenue  
 
 ---
 
-## Key Business Metrics
+# Executive Summary
 
-- **Total Revenue:** $13.6M  
-- **Total Orders:** 99K+  
-- **Unique Customers:** 96K+  
-- **Average Order Value (AOV)**  
-- **Revenue by Category**  
-- **Monthly Revenue Growth**  
+This project evaluates sales performance using transactional data across orders, customers, and product categories. The analysis identifies consistent revenue growth and highlights category-level performance as a primary driver of business outcomes.
+
+From a business perspective, the findings suggest that monitoring category performance and revenue trends provides leadership with clearer visibility into growth opportunities and operational risks.
 
 ---
 
-## Business Problem
+# Business Problem
 
-Businesses often lack centralized visibility into:
+Organizations often monitor total revenue but lack visibility into:
 
-- Revenue drivers  
-- Customer behavior  
-- Product performance  
-- Growth opportunities  
-- Business trends  
+- Which categories drive revenue growth  
+- Whether growth is consistent over time  
+- Where business performance is strongest  
+- Where leadership should prioritize investment  
 
-Without these insights, decision-making becomes reactive rather than strategic.
-
-This project addresses these challenges through executive-level analytics and dashboarding.
+This project addresses these gaps through structured sales performance analysis.
 
 ---
 
-## Business Objectives
+# Why This Project Matters
 
-- Identify revenue drivers  
-- Analyze product performance  
-- Understand customer behavior  
-- Detect growth trends  
-- Identify optimization opportunities  
+This is not just a revenue report.
 
----
+This analysis helps answer:
 
-## Dashboard Breakdown
+- Which product categories drive business performance  
+- Whether growth trends are stable or volatile  
+- Where leadership should prioritize investment  
+- Whether business performance is concentrated in specific areas  
 
-### Revenue Analysis
-- Total revenue performance
-- Monthly revenue trends
-- Growth patterns
-
-### Product Performance
-- Top performing categories
-- Revenue contribution by category
-- Product demand trends
-
-### Customer Analysis
-- Customer growth
-- Purchase frequency
-- Customer behavior insights
+These insights support more informed business planning and performance monitoring.
 
 ---
 
-## Key Insights
+# Dataset
 
-- Revenue concentrated among top product categories  
-- High proportion of single-purchase customers  
-- Strong monthly revenue trends observed  
-- Long-tail product distribution identified  
+Real-world transactional sales dataset
 
----
+~100K Orders  
+Multi-year data  
+Multiple product categories  
 
-## Business Recommendations
+Data Sources:
 
-- Improve customer retention strategies  
-- Expand high-performing categories  
-- Optimize underperforming products  
-- Increase repeat purchase rate  
-- Focus on high-growth periods  
-
----
-
-## Tools Used
-
-- Tableau  
-- Excel  
-- Business Analytics  
-- Data Visualization  
-- KPI Development  
+Orders  
+Customers  
+Order Items  
+Products  
+Payments  
 
 ---
 
-## Dataset
+# Analytical Workflow
 
-Real-world e-commerce transactional data including:
+1. Data Integration  
+Joined multiple transactional tables
 
-- Orders  
-- Customers  
-- Products  
-- Payments  
-- Order Items  
+2. Revenue Trend Analysis  
+Evaluated monthly revenue growth
 
----
+3. Category Performance Analysis  
+Ranked revenue-generating categories
 
-## Project Structure
-
-business-sales-performance-analytics  
-│  
-├── data  
-├── tableau  
-├── exports  
-├── excel  
-├── docs  
-├── ecommerce.db  
-└── README.md  
+4. KPI Development  
+Total revenue, order volume, average order value
 
 ---
 
-## Why This Project Matters
+# Key Findings
 
-This project demonstrates:
+## 1. Revenue Growth
 
-- Executive-level analytics  
-- Business KPI development  
-- Dashboard storytelling  
-- Data-driven decision-making  
-- Business performance analysis  
+Revenue demonstrated consistent growth across the observed period, indicating expanding demand and increasing business activity.
+
+## 2. Category Revenue Concentration
+
+A subset of categories contributed significantly to total revenue.
+
+Top categories included:
+
+Beauty & Health  
+Watches & Gifts  
+Bed, Bath & Table  
+Sports & Leisure  
+Informatics Accessories  
+
+These categories represent key revenue drivers.
+
+## 3. Average Order Value
+
+Average Order Value: $138
+
+This indicates stable purchasing behavior and consistent transaction value.
 
 ---
 
-## Portfolio Project
+# Business Interpretation
 
-This project is part of a professional data analytics portfolio focused on:
+The findings suggest:
 
-- Business Analytics  
-- Customer Analytics  
-- Revenue Analytics  
-- Product Analytics  
+- Revenue growth is category-driven  
+- High-performing categories influence overall business performance  
+- Monitoring category performance is critical for planning  
+
+This shifts focus from total revenue tracking to category-level performance management.
+
+---
+
+# Recommended Actions
+
+Priority 1: Invest in High-Performing Categories  
+Focus resources on categories contributing most revenue
+
+Priority 2: Monitor Category Concentration  
+Reduce over-dependence on limited categories
+
+Priority 3: Track Revenue Growth Trends  
+Use trend monitoring for planning decisions
+
+Priority 4: Expand High-Demand Categories  
+Leverage strong-performing categories for growth
+
+---
+
+# Risk Perspective
+
+Revenue concentration introduces potential risks:
+
+- Over-dependence on select categories  
+- Performance volatility if key categories decline  
+
+Monitoring category performance helps mitigate these risks.
+
+---
+
+# Executive Dashboard
+
+![Executive Sales Dashboard](Executive_Sales_Performance_Dashboard.png)
+
+Dashboard Highlights
+
+Executive KPI Summary  
+Revenue Trend Analysis  
+Category Performance  
+
+---
+
+# Deliverables
+
+Executive Sales Dashboard  
+Revenue Trend Analysis  
+Category Performance Analysis  
+Executive KPI Metrics  
+
+---
+
+# Tech Stack
+
+SQL  
+Excel  
+Tableau  
+
+---
+
+# Limitations
+
+This analysis is based on transactional sales data:
+
+- No marketing attribution data available  
+- No customer lifecycle behavior included  
+- No pricing or promotion analysis  
+
+These limitations define the scope of the analysis.
+
+---
+
+# Final Takeaway
+
+Sales performance is driven by category-level revenue contribution and consistent growth trends. Monitoring high-performing categories provides the strongest opportunity for business performance optimization.
 
