@@ -18,20 +18,21 @@ Top Categories Drive Majority of Revenue
 
 # Executive Summary
 
+This project evaluates sales performance using transactional data across orders, customers, and product categories. The analysis identifies consistent revenue growth and highlights category-level performance as a primary driver of business outcomes.
+
+From a business perspective, the findings suggest that monitoring category performance and revenue trends provides leadership with clearer visibility into growth opportunities and operational risks.
+
+---
+
 # Executive Dashboard
 
 ![Executive Sales Dashboard](Executive_Sales_Performance_Dashboard.png)
 
-Dashboard Highlights
+## Dashboard Highlights
 
-- Executive KPI Summary
-- Revenue Trend Analysis
-- Category Performance
-
-
-This project evaluates sales performance using transactional data across orders, customers, and product categories. The analysis identifies consistent revenue growth and highlights category-level performance as a primary driver of business outcomes.
-
-From a business perspective, the findings suggest that monitoring category performance and revenue trends provides leadership with clearer visibility into growth opportunities and operational risks.
+- Executive KPI Summary  
+- Revenue Trend Analysis  
+- Category Performance  
 
 ---
 
@@ -83,16 +84,16 @@ Payments
 
 # Analytical Workflow
 
-1. Data Integration  
+### Data Integration
 Joined multiple transactional tables
 
-2. Revenue Trend Analysis  
+### Revenue Trend Analysis
 Evaluated monthly revenue growth
 
-3. Category Performance Analysis  
+### Category Performance Analysis
 Ranked revenue-generating categories
 
-4. KPI Development  
+### KPI Development
 Total revenue, order volume, average order value
 
 ---
@@ -109,11 +110,11 @@ A subset of categories contributed significantly to total revenue.
 
 Top categories included:
 
-Beauty & Health  
-Watches & Gifts  
-Bed, Bath & Table  
-Sports & Leisure  
-Informatics Accessories  
+- Beauty & Health  
+- Watches & Gifts  
+- Bed, Bath & Table  
+- Sports & Leisure  
+- Informatics Accessories  
 
 These categories represent key revenue drivers.
 
@@ -139,16 +140,16 @@ This shifts focus from total revenue tracking to category-level performance mana
 
 # Recommended Actions
 
-Priority 1: Invest in High-Performing Categories  
+### Priority 1: Invest in High-Performing Categories
 Focus resources on categories contributing most revenue
 
-Priority 2: Monitor Category Concentration  
+### Priority 2: Monitor Category Concentration
 Reduce over-dependence on limited categories
 
-Priority 3: Track Revenue Growth Trends  
+### Priority 3: Track Revenue Growth Trends
 Use trend monitoring for planning decisions
 
-Priority 4: Expand High-Demand Categories  
+### Priority 4: Expand High-Demand Categories
 Leverage strong-performing categories for growth
 
 ---
@@ -164,21 +165,20 @@ Monitoring category performance helps mitigate these risks.
 
 ---
 
-
 # Deliverables
 
-Executive Sales Dashboard  
-Revenue Trend Analysis  
-Category Performance Analysis  
-Executive KPI Metrics  
+- Executive Sales Dashboard  
+- Revenue Trend Analysis  
+- Category Performance Analysis  
+- Executive KPI Metrics  
 
 ---
 
 # Tech Stack
 
-SQL  
-Excel  
-Tableau  
+- SQL  
+- Excel  
+- Tableau  
 
 ---
 
@@ -198,5 +198,3 @@ These limitations define the scope of the analysis.
 
 Sales performance is driven by category-level revenue contribution and consistent growth trends. Monitoring high-performing categories provides the strongest opportunity for business performance optimization.
 
-
-# Executive Dashboard
