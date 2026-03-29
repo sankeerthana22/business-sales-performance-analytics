@@ -18,6 +18,17 @@ Top Categories Drive Majority of Revenue
 
 # Executive Summary
 
+# Executive Dashboard
+
+![Executive Sales Dashboard](Executive_Sales_Performance_Dashboard.png)
+
+Dashboard Highlights
+
+- Executive KPI Summary
+- Revenue Trend Analysis
+- Category Performance
+
+
 This project evaluates sales performance using transactional data across orders, customers, and product categories. The analysis identifies consistent revenue growth and highlights category-level performance as a primary driver of business outcomes.
 
 From a business perspective, the findings suggest that monitoring category performance and revenue trends provides leadership with clearer visibility into growth opportunities and operational risks.
@@ -153,17 +164,6 @@ Monitoring category performance helps mitigate these risks.
 
 ---
 
-# Executive Dashboard
-
-![Executive Sales Dashboard](Executive_Sales_Performance_Dashboard.png)
-
-Dashboard Highlights
-
-Executive KPI Summary  
-Revenue Trend Analysis  
-Category Performance  
-
----
 
 # Deliverables
 
@@ -198,3 +198,5 @@ These limitations define the scope of the analysis.
 
 Sales performance is driven by category-level revenue contribution and consistent growth trends. Monitoring high-performing categories provides the strongest opportunity for business performance optimization.
 
+
+# Executive Dashboard
